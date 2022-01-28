@@ -1,0 +1,131 @@
+body {
+  background-color: #b3d4fc;
+}
+
+.block_name_game {
+  text-align: center;
+  margin: 50px;
+
+}
+
+.text {
+  font-size: 45px;
+  font-weight: bolder;
+  font-family: "Corbel Light";
+  display: inline-block;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  margin: 0px 10px 30px;
+  border-radius: 5px;
+  background-color: rgb(179, 212, 252);
+  font-size: 15px;
+  font-family: "Corbel Light";
+  font-weight: bold;
+}
+
+/*Место для ввода имени*/
+.block_input_name{
+  text-align: center;
+}
+
+.block_input_name .text {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.block_input_name .input_place input{
+  border-radius: 2px;
+  border: none;
+  padding: 5px 15px;
+}
+
+.block_input_name .send_btn {
+  margin: 15px;
+}
+
+.block_input_name .send_btn button {
+  font-size: 15px;
+  background-color: white;
+}
+
+/*Область для игры*/
+.block_game {
+  width: 1000px;
+  margin: 50px auto;
+  height: auto;
+  background-color: cornflowerblue;
+  display: none;
+  border-radius: 10px;
+  position: relative;
+}
+
+.block_game .block_part {
+  height: 80%;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.block_game .block_part .block_settings {
+  display: flex;
+  margin: 10px 45px;
+}
+
+.block_game .block_part .text {
+  font-size: 30px;
+  color: #70ff4b;
+  width: 80%;
+  margin: 15px 0px 0px;
+}
+
+.block_game .block_player .text {
+  text-align: left;
+}
+
+.block_game .block_pc .text {
+  text-align: right;
+}
+
+.block_game .block_part .block_play {
+  border: 5px solid rgba(112, 255, 75, 0.55);
+  margin: 25px 45px;
+  padding: 1px;
+  height: auto;
+  width: auto;
+  display: table;
+}
+
+.block_game .block_part .block_play .row {
+  margin: 0px;
+}
+
+.block_game .block_part .block_play .row div {
+  background-color: #b3d4fc;
+  border: 1px solid cornflowerblue;
+  width: 25px;
+  height: 20px;
+  display: table-cell;
+}
+
+/*Область для сообщений*/
+.block_game .block_messages {
+  position: absolute;
+  background-color: cornflowerblue;
+  border-top-left-radius: 10px;
+  padding: 15px 30px;
+  top: -50px;
+  display: none;
+  width: 100px;
+  text-align: center;
+}
+
+.block_game .block_messages .text {
+  font-size: 20px;
+  color: #70ff4b;
+}
+
+
+
